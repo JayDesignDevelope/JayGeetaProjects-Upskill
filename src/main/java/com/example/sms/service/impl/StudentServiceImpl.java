@@ -8,17 +8,16 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService {
-    private StudentRepository studentRepository;
+    private StudentRepository studentrepository;
 
-    public StudentServiceImpl(StudentRepository studentRepository) {
+    public StudentServiceImpl(StudentRepository studentrepository) {
         super();
-        this.studentRepository = studentRepository;
+        this.studentrepository = studentrepository;
     }
 
     @Override
-    public List<Student> getAllStudents() {
-        return studentRepository.findAll();
-    }
-
-
+    public List<Student> getAllStudents(){
+        return studentrepository.findAll();
+    };
 }
+
