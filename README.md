@@ -1,3 +1,3 @@
 # JayGeetaProjects-Upskill
 
-##Project -1 -> Student management system
+#Project -1 -> Student management system
